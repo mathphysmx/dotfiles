@@ -1,0 +1,6 @@
+[user]
+	name = Francisco Mendoza-Torres
+	email = mentofran@gmail.com
+[core]
+	editor = vim
+	excludesfile = /home/paco/.gitignore_global

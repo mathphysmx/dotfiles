@@ -1,0 +1,34 @@
+# This is a comment.
+# Add this file to the directory "~/.config/zathura"
+# See documentation at https://pwmt.org/projects/zathura/documentation/
+#https://github.com/majutsushi/etc/blob/master/zathurarc
+# see also http://www.avajava.com/tutorials/lessons/how-are-margins-borders-padding-and-content-related.html
+
+# press the semicolon key to go to a page number ":45" goes to page 45
+
+set guioptions "" # "vhs"
+# set statusbar-bg "#CCBBCC"
+set window-width 700 # left half lenovo z475 screen size
+set window-height 750
+
+#set adjust-open "width" # "best-fit"
+#set database
+set incremental-search false
+# set page-padding 50 # the space between pages
+# set show-recent 10 # shows 10 recent files
+set search-hadjust false
+set window-title-basename true # toggle complete path-to-file in the title
+set window-title-page true
+set statusbar-basename true # toggle complete path-to-file in the title
+set selection-clipboard "clipboard"
+set font "monaco 12" # Zathura index/statusbar font size
+# set recolor true
+#set first-page-column     2
+#map b toggle_statusbar
+
+#set n-completion-items    100
+#set first-page-column     2
+map [normal] b jumplist backward
+
+#map <PageUp> navigate previous
+#map <PageDown> navigate next
