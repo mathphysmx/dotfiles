@@ -1,0 +1,43 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "pixel",
+    "current_border_width": 1,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 532,
+       "width": 940,
+       "x": 0,
+       "y": 0
+    },
+    "name": "GVIM",
+    "percent": 0.6,
+    "swallows": [
+       {
+       "class": "^Gvim$",
+       "instance": "^gvim$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "pixel",
+    "current_border_width": 1,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 750,
+       "width": 700,
+       "x": 0,
+       "y": 0
+    },
+    "name": "Zathura",
+    "percent": 0.4,
+    "swallows": [
+       {
+       "class": "^Zathura$",
+        "instance": "^zathura$"
+       }
+    ],
+    "type": "con"
+}
+
