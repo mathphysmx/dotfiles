@@ -34,6 +34,7 @@ package.list <- c("RSQLite",
 
 for (p in setdiff(package.list, installed.packages()[,"Package"])) {install.packages(p)}
 
+devtools::install_github("mathphysmx/cleanTable")
 devtools::install_github("mathphysmx/gmshR")
 devtools::install_github("mathphysmx/percolation")
 devtools::install_github("mathphysmx/empiricalDistribution")
