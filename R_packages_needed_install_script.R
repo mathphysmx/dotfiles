@@ -28,7 +28,7 @@ package.list <- c("RSQLite",
                   "RFOC",
                   "circular", "movMF", "VecStatGraphs2D", # directional statistics
                   "distr", "fitdistrplus",
-                  "actuar",  "polynom", "splines", "squash",
+                  "actuar",  "polynom", "splines", "squash"
                   )
 
 
