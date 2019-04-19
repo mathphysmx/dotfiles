@@ -16,6 +16,7 @@ package.list <- c("RSQLite",
                   "lubridate",       # Date formating
                   "readxl", "xts", # Read MS Excel files
                   "stringr",
+                  "compare", # compare 2 data.frame's and other R objects
                   "splitstackshape", # Stratified sampling
                   "reshape2", # table manipulation
                   "stringdist",      # fuzzy (approximate) string matching
