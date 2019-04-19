@@ -11,24 +11,31 @@ install.packages("knitr", "devtools", "roxygen2", "testthat",
 # Work packages
 package.list <- c("RSQLite",
                   "httr", "jsonlite", # www scrapping
-                  "doSNOW", "foreach", # Parallel computing
+                  "doSNOW", "foreach", "foreach", # Parallel computing
                   "dplyr", "tidyverse",
+                  "lubridate",       # Date formating
                   "readxl", "xts", # Read MS Excel files
                   "stringr",
+                  "splitstackshape", # Stratified sampling
+                  "reshape2", # table manipulation
                   "stringdist",      # fuzzy (approximate) string matching
                   "fuzzyjoin", # Join data frames on inexact matching. Approximate String/coordinates/values/ matching 
-                  "lubridate",       # Date formating
                   "scales", "automap", "raster", "lmomRFA",
                   "lmomco",  "gdata", "ncdf4", 
                   "geoR", "gstat", "spatstat", # spatial statistics
-                  "rgdal", # GIS
+                  "rgdal", "maps", "ggmap", # GIS/ web mapping
+                  "geosphere", # Long,Lat distance between 2 geo-locations
                   "igraph", # graph network analysis
                   "ggplot2", # plotting
+                  "leaflet", "leaflet.extras", # interactive web maps
+                  "shiny",
                   "copula","copBasic", "TwoCop", # Copula (dependence) theory
                   "RFOC",
                   "circular", "movMF", "VecStatGraphs2D", # directional statistics
                   "distr", "fitdistrplus",
-                  "actuar",  "polynom", "splines", "squash"
+                  "actuar",  "polynom", "splines", "squash",
+                  "mlbench",  "gower", "cluster", "corrplot",  # Machine learning
+                  "keras" # Neural networks
                   )
 
 
