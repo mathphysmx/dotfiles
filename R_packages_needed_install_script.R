@@ -29,6 +29,7 @@ package.list <- c("RSQLite",
                   "igraph", # graph network analysis
                   "ggplot2", # plotting
                   "leaflet", "leaflet.extras", # interactive web maps
+                  "geojsonio", # Chlorophlet maps on leaflet
                   "shiny",
                   "copula","copBasic", "TwoCop", # Copula (dependence) theory
                   "RFOC",
