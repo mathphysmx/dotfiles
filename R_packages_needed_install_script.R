@@ -48,5 +48,5 @@ devtools::install_github("mathphysmx/gmshR")
 devtools::install_github("mathphysmx/percolation")
 devtools::install_github("mathphysmx/empiricalDistribution")
 devtools::install_github("mathphysmx/inverseFunction")
-devtools::install_github("mathphysmx/bernstein")
+devtools::install_github("mathphysmx/bernstein", build_vignettes = TRUE)
 
