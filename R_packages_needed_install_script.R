@@ -24,7 +24,7 @@ package.list <- c("RSQLite",
                   "scales", "automap", "raster", "lmomRFA",
                   "lmomco",  "gdata", "ncdf4", 
                   "geoR", "gstat", "spatstat", # spatial statistics
-                  "rgdal", "maps", "ggmap", # GIS/ web mapping
+                  "rgdal", "maps", "ggmap", "usmap", # GIS/ web mapping
                   "geosphere", # Long,Lat distance between 2 geo-locations
                   "igraph", # graph network analysis
                   "ggplot2", # plotting
@@ -37,7 +37,7 @@ package.list <- c("RSQLite",
                   "distr", "fitdistrplus",
                   "actuar",  "polynom", "splines", "squash",
                   "mlbench",  "gower", "cluster", "corrplot",  # Machine learning
-                  "keras" # Neural networks
+                  "neuralnet", "keras" # Neural networks
                   )
 
 
