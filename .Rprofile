@@ -28,10 +28,9 @@
   library(gower)# for gower distance
   
   library(geosphere) # Long,Lat distance between 2 geo-locations
-  library(leaflet)
+  library(shiny) # Interactive Web App development
+  library(leaflet) # Interactive geographic mapping
   library(leaflet.extras)
-  library(shiny)
-  
   
   # parallel computing
   library(doSNOW)
@@ -41,12 +40,15 @@
   # neural networks
   library(keras)
   library(mlbench) 
-  library(magrittr)
+  library(magrittr) # %<>% operator
   library(neuralnet)
+  
+  library(randomForest) 
   
   # Custom packages
   library(virtualAssetR)
   library(cleanTable)
+  library(bernstein)
   
   cat("\014") # cleans the console
   
