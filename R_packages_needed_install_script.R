@@ -36,6 +36,7 @@ package.list <- c("RSQLite",
                   "circular", "movMF", "VecStatGraphs2D", # directional statistics
                   "distr", "fitdistrplus",
                   "actuar",  "polynom", "splines", "squash",
+                  "beepr", # for alerting when a time consuming process starts
                   "mlbench",  "gower", "cluster", "corrplot",  # Machine learning
                   "neuralnet", "keras" # Neural networks
                   )
