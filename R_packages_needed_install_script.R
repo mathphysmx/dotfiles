@@ -30,7 +30,7 @@ package.list <- c("RSQLite",
                   "ggplot2", # plotting
                   "leaflet", "leaflet.extras", # interactive web maps
                   "geojsonio", # Chlorophlet maps on leaflet
-                  "shiny",
+                  "shiny", "plumber", # API interfaces
                   "copula","copBasic", "TwoCop", # Copula (dependence) theory
                   "RFOC",
                   "circular", "movMF", "VecStatGraphs2D", # directional statistics
